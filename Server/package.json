@@ -1,0 +1,26 @@
+{
+  "name": "todo-server",
+  "version": "1.0.0",
+  "description": "server for react todo app",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zendau/reactTodo.git"
+  },
+  "author": "zendau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zendau/reactTodo/issues"
+  },
+  "homepage": "https://github.com/zendau/reactTodo#readme",
+  "dependencies": {
+    "consola": "^2.15.3",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.10",
+    "mongoose": "^5.13.2",
+    "nodemon": "^2.0.9"
+  }
+}
